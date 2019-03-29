@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "a6c336d0-bebe-99bb-fe2b-aeee3363a55f",
+		"name": "SeeTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetMethod",
+			"item": [
+				{
+					"name": "https://cloud.seetest.io/api/v1/applications",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ4cC51Ijo1NjI4NDUwLCJ4cC5wIjo1NjI4NDQ5LCJ4cC5tIjoiTVRVMU16WTVPREkzTWpZNU5nIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4NjkwNTgyNzQsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.HuYSHTZBtsQlLH_vLOndpqscEAAsc38szckhPiyOOik"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://cloud.seetest.io/api/v1/applications",
+						"description": "SeeTest Public"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
